@@ -49,25 +49,47 @@ h3{
 	color: white;
 }
 
-.whiteButton{
+.btn{
 	font-family: cavierDreamsBold;
+	font-size: 20pt;
+	background-color: white;
+	height: 100px;
+	width: 400px;
+	color: black;
+	margin-top: 40px;
+	border-radius: 0;
+}
+
+.btn:hover{
+	background-color: #005555;
+}
+
+.btn:active{
+	background-color: #005555 !important;
+}
+
+.btn:visited{
+	background-color: #005555;
+}
+
+.input-group{
+	font-family: cavierDreamsBold;
+	font-size: 20pt;
 	height: 100px;
 	width: 400px;
 	background-color: white;
-	padding-top: 17px;
 	margin-top: 40px;
 }
 
-h2{
-	color: black;
-	text-align: center;
+.form-control{
+	height: 100px;
+	width: 400px;
+	font-family: cavierDreamsBold !important;
+	font-size: 20pt;
+	text-indent: 115px;
 }
 
-.zip{
-	color: gray;
-}
-
-.btn{
+.btn2{
 	margin-top: 40px;
 	margin-right: 40px;
 	background-color: red;
